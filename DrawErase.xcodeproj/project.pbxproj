@@ -12,6 +12,7 @@
 		009052AE227221D600A0FF3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009052AC227221D600A0FF3D /* Main.storyboard */; };
 		009052B0227221D800A0FF3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009052AF227221D800A0FF3D /* Assets.xcassets */; };
 		009052B3227221D800A0FF3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009052B1227221D800A0FF3D /* LaunchScreen.storyboard */; };
+		009052BB227221F400A0FF3D /* boat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 009052BA227221F400A0FF3D /* boat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		009052AF227221D800A0FF3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		009052B2227221D800A0FF3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		009052B4227221D800A0FF3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009052BA227221F400A0FF3D /* boat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				009052AF227221D800A0FF3D /* Assets.xcassets */,
 				009052B1227221D800A0FF3D /* LaunchScreen.storyboard */,
 				009052B4227221D800A0FF3D /* Info.plist */,
+				009052BA227221F400A0FF3D /* boat.jpg */,
 			);
 			path = DrawErase;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				009052B3227221D800A0FF3D /* LaunchScreen.storyboard in Resources */,
+				009052BB227221F400A0FF3D /* boat.jpg in Resources */,
 				009052B0227221D800A0FF3D /* Assets.xcassets in Resources */,
 				009052AE227221D600A0FF3D /* Main.storyboard in Resources */,
 			);
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NML383672N;
 				INFOPLIST_FILE = DrawErase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NML383672N;
 				INFOPLIST_FILE = DrawErase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
